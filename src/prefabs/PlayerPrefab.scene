@@ -1,0 +1,75 @@
+{
+    "id": "40d1e19d-4dae-4794-9673-45e1fc03f04f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "bb8c48b3-2120-4dfe-b6dc-4c3dde94d121",
+            "label": "arcadesprite_1",
+            "texture": {
+                "key": "nico3"
+            },
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "flipX": true,
+            "body.width": 192,
+            "body.height": 192
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "a2ba6911-1861-4d00-a607-6e0cdb5739b0",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "e8301d6c-d2b9-4119-84df-edb336d03616",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "9b3d5396-c9d8-4f3b-9a76-58d144af8bf4",
+            "type": "Keyboard.Key",
+            "label": "spaceKey"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "speed",
+            "label": "Speed",
+            "tooltip": "How fast the player can move",
+            "defValue": 80,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "jumpForce",
+            "label": "Jump Force",
+            "tooltip": "How high the player can jump",
+            "defValue": 200,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

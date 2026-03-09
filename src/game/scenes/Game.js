@@ -249,9 +249,9 @@ export default class Game extends Phaser.Scene {
     this.collisionTileLayer.setCollision([35]);
     this.collisionTileLayer.setAlpha(0.5);
 
-    this.input.once("pointerdown", () => {
-      this.scene.start("GameOver");
-    });
+    // this.input.once("pointerdown", () => {
+    //   this.scene.start("GameOver");
+    // });
   }
 
   update() {

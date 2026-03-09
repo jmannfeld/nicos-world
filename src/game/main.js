@@ -30,7 +30,7 @@ const config = {
                 x: 0,
                 y: 500
             },
-             debug: true
+            //  debug: true
         }
     }
 };
